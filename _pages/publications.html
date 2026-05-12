@@ -5,34 +5,46 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.publications.size > 0 %}
-  {% for post in site.publications reversed %}
-    <div style="display: flex; gap: 20px; margin-bottom: 30px; align-items: flex-start;">
+{% assign publications = site.publications | sort: "date" | reverse %}
 
-      {% if post.header.teaser %}
-        <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.header.teaser | relative_url }}" style="width: 180px; height: auto; border-radius: 8px;">
-        </a>
-      {% endif %}
+{% for post in publications %}
+<div style="display:flex; gap:30px; margin-bottom:50px; align-items:flex-start;">
 
-      <div>
-        <h2 style="margin-top: 0;">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h2>
+  <!-- IMAGE -->
+  <div style="flex:0 0 320px;">
+    <a href="{{ post.url | relative_url }}">
+      <img src="{{ post.header.teaser | relative_url }}"
+           style="width:320px; border-radius:10px; object-fit:cover; box-shadow:0 2px 8px rgba(0,0,0,0.15);">
+    </a>
+  </div>
 
-        {% if post.excerpt %}
-          <p>{{ post.excerpt }}</p>
-        {% endif %}
+  <!-- TEXT -->
+  <div style="flex:1;">
 
-        {% if post.venue %}
-          <p><strong>{{ post.venue }}</strong></p>
-        {% endif %}
+    <h2 style="margin-top:0; margin-bottom:12px; line-height:1.2;">
+      <a href="{{ post.url | relative_url }}" style="text-decoration:none;">
+        {{ post.title }}
+      </a>
+    </h2>
 
-        {% if post.date %}
-          <p>{{ post.date | date: "%Y" }}</p>
-        {% endif %}
-      </div>
+    {% if post.citation %}
+      <p style="margin:0 0 10px 0; font-size:0.95em; color:#555;">
+        {{ post.citation | strip_html }}
+      </p>
+    {% endif %}
 
-    </div>
-  {% endfor %}
-{% endif %}
+    {% if post.venue %}
+      <p style="margin:0 0 12px 0; font-weight:600;">
+        {{ post.venue }}
+      </p>
+    {% endif %}
+
+    {% if post.paperurl %}
+      <p style="margin-top:10px;">
+        <a href="{{ post.paperurl }}">[paper]</a>
+      </p>
+    {% endif %}
+
+  </div>
+</div>
+{% endfor %}
