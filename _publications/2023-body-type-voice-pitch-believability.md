@@ -12,7 +12,7 @@ header:
   teaser: /images/VoicePitch.png
 ---
 
-<img src="/images/VoicePitch.jpg" width="700">
+<img src="/images/VoicePitch.png" width="700">
 
 This paper examines how virtual characters’ body type and voice pitch influence perceived audio-visual correspondence and believability. The study used a within-group design with 72 participants and tested combinations of body type and voice pitch for female and male virtual characters.
 
