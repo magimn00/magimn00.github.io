@@ -27,9 +27,9 @@ author_profile: true
       </a>
     </h2>
 
-    {% if post.citation %}
+    {% if post.authors %}
   <p style="margin:0 0 10px 0; font-size:0.95em; color:#555;">
-    {{ post.citation | strip_html }}
+    {{ post.authors }}
   </p>
 {% endif %}
 
