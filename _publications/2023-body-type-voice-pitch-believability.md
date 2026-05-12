@@ -1,4 +1,6 @@
 ---
+header:
+  teaser: /images/VoicePitch.png
 title: "Effects of Body Type and Voice Pitch on Perceived Audio-Visual Correspondence and Believability of Virtual Characters"
 collection: publications
 category: publications
