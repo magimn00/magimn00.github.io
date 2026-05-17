@@ -5,86 +5,57 @@ permalink: /cv/
 author_profile: true
 ---
 
-# Curriculum Vitae
+<div style="display:grid; grid-template-columns: 1fr 1fr; gap:25px; align-items:start;">
 
-[Download CV](/files/CV.pdf)
+<div style="padding:25px; border-radius:14px; background:#f7f7f7;">
+<h2>Curriculum Vitae</h2>
+<p><strong>Magzhan Mukanova</strong></p>
+<p>Ph.D. student researching embodied virtual agents, behavioral animation, personality expression, and human-computer interaction.</p>
 
-## Education
+<p>
+<a href="/files/CV.pdf" style="font-weight:bold;">Download Full CV</a>
+</p>
+</div>
 
-### Purdue University
-**Ph.D. in Technology**  
-West Lafayette, IN  
-Expected 2027
+<div style="padding:25px; border-radius:14px; background:#f7f7f7;">
+<h2>Education</h2>
+<p><strong>Purdue University</strong><br>
+Ph.D. in Technology, expected 2027</p>
 
-Research focuses on embodied virtual agents, behavioral animation, personality expression, and human-computer interaction using MetaHumans, Unreal Engine, and motion-capture systems.
+<p><strong>Purdue University</strong><br>
+M.S. in Technology, 2023<br>
+GPA: 3.97</p>
+</div>
 
-### Purdue University
-**M.S. in Technology**  
-West Lafayette, IN  
-2023  
-GPA: 3.97
+<div style="padding:25px; border-radius:14px; background:#f7f7f7;">
+<h2>Research Areas</h2>
+<ul>
+<li>Embodied virtual agents</li>
+<li>Behavioral animation</li>
+<li>Personality expression</li>
+<li>Human-computer interaction</li>
+<li>MetaHumans and Unreal Engine</li>
+</ul>
+</div>
 
----
+<div style="padding:25px; border-radius:14px; background:#f7f7f7;">
+<h2>Technical Skills</h2>
+<p>Unreal Engine 5, MetaHumans, Maya, Blender, iClone, Character Creator, motion capture, AI mocap tools, Python, OpenGL.</p>
+</div>
 
-## Research Interests
+<div style="padding:25px; border-radius:14px; background:#f7f7f7;">
+<h2>Experience</h2>
+<p><strong>Teaching Assistant</strong><br>Purdue University, 2024–Present</p>
+<p><strong>3D Animator</strong><br>Everstar Studio, 2024–2025</p>
+<p><strong>Mentor</strong><br>BrainCode Academy, 2023–2025</p>
+</div>
 
-- Embodied virtual agents
-- Behavioral animation
-- Personality expression
-- Human-computer interaction
-- MetaHumans and Unreal Engine
-- Motion capture
-- Virtual humans
+<div style="padding:25px; border-radius:14px; background:#f7f7f7;">
+<h2>Languages</h2>
+<p>Russian, Kazakh, English, German</p>
 
----
+<h2>Links</h2>
+<p><a href="/publications/">Publications</a> · <a href="/portfolio/">Projects</a></p>
+</div>
 
-## Experience
-
-### Teaching Assistant — Purdue University
-*August 2024 – Present*
-
-- Guided students in 2D/3D animation principles and character performance
-- Assisted with Maya, Unreal Engine, iClone, and mocap workflows
-- Supported rigging, keyframing, rendering, and animation troubleshooting
-
-### 3D Animator — Everstar Studio
-*April 2024 – Nov 2025*
-
-- Created and refined human character animations
-- Worked with MetaHuman and facial animation pipelines
-- Integrated AI-driven animation tools and procedural workflows
-
-### Mentor — BrainCode Academy
-*Dec 2023 – Apr 2025*
-
-- Mentored students in UE5, Blender, environmental design, and game development
-
----
-
-## Technical Skills
-
-- Unreal Engine 5
-- Autodesk Maya
-- Blender
-- iClone
-- Character Creator
-- Motion Capture Workflows
-- Adobe Creative Suite
-- AI Mocap Tools
-- Python
-- OpenGL
-
----
-
-## Languages
-
-- Russian (Native)
-- Kazakh (Native)
-- English (Advanced)
-- German (Beginner)
-
----
-
-## Publications
-
-See the [Publications](/publications/) page for a complete list of papers and research projects.
+</div>
