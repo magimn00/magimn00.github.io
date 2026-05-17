@@ -7,7 +7,7 @@ author_profile: true
 
 # Magzhan Mukanova
 
-Ph.D. student in Computer Graphics Technology at Purdue University.
+Ph.D. student in School of Applied and Creative Computing at Purdue University.
 
 My research focuses on embodied virtual agents, behavioral animation, personality expression, and human-computer interaction. I work with MetaHumans, Unreal Engine, motion capture, and AI-driven conversational agents to study how appearance and movement influence perception and interaction.
 
