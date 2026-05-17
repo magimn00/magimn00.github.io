@@ -20,7 +20,7 @@ author_profile: true
 <div style="padding:25px; border-radius:14px; background:#f7f7f7;">
 <h2>Education</h2>
 <p><strong>Purdue University</strong><br>
-Ph.D. in Technology, expected 2027</p>
+Ph.D. in Computer & Information Technology, expected May 2028</p>
 
 <p><strong>Purdue University</strong><br>
 M.S. in Technology, 2023<br>
