@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Magzhan Mukanova</title>
+  <meta name="description" content="Research and animation projects by Magzhan Mukanova: embodied virtual agents, MetaHuman conversational characters, gesture perception studies, and animation systems.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">Magzhan<span>.</span>Mukanova</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html" aria-current="page">Projects</a></li>
+      <li><a href="reel.html">Reels</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="cv.html">CV</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Portfolio</span>
+        <h1>Projects</h1>
+        <p class="lede">
+          Research prototypes, interactive virtual humans, and animation work.
+          Each project below has a video slot — see the comments in the HTML for
+          how to drop in a YouTube, Vimeo, or local video.
+        </p>
+      </div>
+
+      <!-- ==================================================================
+           HOW TO ADD A VIDEO to any project below:
+
+           YouTube:  replace the whole <div class="video-placeholder">...</div>
+                     block inside .video-frame with:
+             <iframe src="https://www.youtube.com/embed/VIDEO_ID"
+                     title="Project video" allowfullscreen></iframe>
+
+           Vimeo:
+             <iframe src="https://player.vimeo.com/video/VIDEO_ID"
+                     title="Project video" allowfullscreen></iframe>
+
+           Local file (put video.mp4 in the /videos folder):
+             <video controls poster="images/thumbnail.png">
+               <source src="videos/video.mp4" type="video/mp4">
+             </video>
+           ================================================================== -->
+
+      <!-- ============ PROJECT 1 ============ -->
+      <article class="reel-block reveal">
+        <h2>Conversational MetaHuman Agent</h2>
+        <p class="reel-notes" style="margin-bottom:18px;">
+          An interactive embodied agent built with Unreal Engine 5, MetaHumans, and a
+          conversational AI pipeline. The agent combines speech, gaze, facial animation,
+          and gesture behavior to hold real-time conversations.
+          <!-- PLACEHOLDER: replace this description with your own text -->
+        </p>
+        <div class="video-frame">
+          <div class="video-placeholder">
+            <div class="play"></div>
+            <strong>Project video coming soon</strong>
+            <span>Replace this placeholder with a YouTube/Vimeo embed — see the comment in the HTML.</span>
+          </div>
+        </div>
+        <ul class="chips" style="margin-top:18px;">
+          <li>Unreal Engine 5</li><li>MetaHumans</li><li>Conversational AI</li><li>Real-time animation</li>
+        </ul>
+      </article>
+
+      <hr style="border:none; border-top:1px solid var(--line); margin:56px 0;">
+
+      <!-- ============ PROJECT 2 ============ -->
+      <article class="reel-block reveal">
+        <h2>Affective Gestures for Pedagogical Agents</h2>
+        <p class="reel-notes" style="margin-bottom:18px;">
+          Animated pedagogical agents performing affective arm and hand gestures extracted
+          from the GEMEP dataset. A perception study with 131 participants examined how
+          viewers recognize emotion, arousal, and valence from gesture alone.
+        </p>
+        <div class="video-frame">
+          <div class="video-placeholder">
+            <div class="play"></div>
+            <strong>Project video coming soon</strong>
+            <span>Replace this placeholder with a YouTube/Vimeo embed — see the comment in the HTML.</span>
+          </div>
+        </div>
+        <ul class="chips" style="margin-top:18px;">
+          <li>Character animation</li><li>GEMEP dataset</li><li>Perception study</li><li>ArtsIT 2023</li>
+        </ul>
+      </article>
+
+      <hr style="border:none; border-top:1px solid var(--line); margin:56px 0;">
+
+      <!-- ============ PROJECT 3 ============ -->
+      <article class="reel-block reveal">
+        <h2>Body Type &amp; Voice Pitch in Virtual Characters</h2>
+        <p class="reel-notes" style="margin-bottom:18px;">
+          A within-group study (72 participants) testing how combinations of body type and
+          voice pitch affect perceived audio-visual correspondence and believability of
+          virtual characters. Published at the ACM Symposium on Applied Perception 2023.
+        </p>
+        <div class="video-frame">
+          <div class="video-placeholder">
+            <div class="play"></div>
+            <strong>Project video coming soon</strong>
+            <span>Replace this placeholder with a YouTube/Vimeo embed — see the comment in the HTML.</span>
+          </div>
+        </div>
+        <ul class="chips" style="margin-top:18px;">
+          <li>Virtual humans</li><li>Believability</li><li>ACM SAP 2023</li>
+        </ul>
+      </article>
+
+      <!-- ==================================================================
+           TO ADD ANOTHER PROJECT: copy an <article class="reel-block reveal">
+           block above (from <article> to </article>), paste it here, and
+           edit the title, description, and tags.
+           ================================================================== -->
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>© 2026 Magzhan Mukanova · West Lafayette, IN</div>
+    <ul class="footer-links">
+      <li><a href="https://scholar.google.com/citations?user=7hkrEg0AAAAJ&amp;hl=en">Google Scholar</a></li>
+      <li><a href="https://orcid.org/0009-0009-5223-1664">ORCID</a></li>
+      <li><a href="https://github.com/magimn00">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/magzhan-mukanova-28283a11b">LinkedIn</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
