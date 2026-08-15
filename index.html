@@ -1,182 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Magzhan Mukanova — Ph.D. Student · Animator · Researcher</title>
-  <meta name="description" content="Magzhan Mukanova is a Ph.D. student in the School of Applied and Creative Computing at Purdue University researching embodied virtual agents, character animation, and human-computer interaction.">
-  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magzhan Mukanova — Ph.D. Candidate · 3D Animator · Researcher</title>
+<meta name="description" content="Magzhan Mukanova is a Ph.D. candidate in the School of Applied and Creative Computing at Purdue University researching embodied virtual agents, behavioral animation, and human-computer interaction.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
 </head>
 <body>
+<div style="position:relative; min-height:100vh; overflow-x:hidden; background:#F7F3EC; font-family:'Work Sans',Helvetica,Arial,sans-serif; color:#26231F;">
+  <div data-paint="0.06" style="position:fixed; inset:-10% -5% -10% -5%; background-image:url('images/paint-wash.png'); background-size:cover; background-position:center; opacity:var(--mm-paint, .5); mix-blend-mode:multiply; pointer-events:none; z-index:0; will-change:transform;"></div>
+  <div data-paint="0.16" style="position:fixed; top:-15%; right:-20%; width:80vw; height:110vh; background-image:url('images/paint-wash.png'); background-size:cover; background-position:70% 30%; opacity:calc(var(--mm-paint, .5) * .8); mix-blend-mode:multiply; -webkit-mask-image:radial-gradient(60% 55% at 60% 45%, #000 0%, transparent 78%); mask-image:radial-gradient(60% 55% at 60% 45%, #000 0%, transparent 78%); pointer-events:none; z-index:0; will-change:transform;"></div>
+  <div data-paint="0.28" data-breathe="" style="position:fixed; top:8%; left:-28%; width:70vw; height:78vh; background-image:url('images/paint-wash.png'); background-size:cover; background-position:18% 62%; background-size:180% 240%; transform-origin:center; rotate:-14deg; opacity:calc(var(--mm-paint, .5) * 1.7); mix-blend-mode:multiply; -webkit-mask-image:linear-gradient(96deg, transparent 4%, #000 26%, #000 70%, transparent 96%); mask-image:linear-gradient(96deg, transparent 4%, #000 26%, #000 70%, transparent 96%); pointer-events:none; z-index:0; will-change:transform;"></div>
+  <div data-paint="0.42" data-breathe="" style="position:fixed; top:52%; right:-14%; width:56vw; height:52vh; background-image:url('images/paint-wash.png'); background-size:cover; background-position:76% 24%; background-size:190% 260%; rotate:9deg; opacity:calc(var(--mm-paint, .5) * 1.5); mix-blend-mode:multiply; -webkit-mask-image:linear-gradient(84deg, transparent 6%, #000 30%, #000 72%, transparent 97%); mask-image:linear-gradient(84deg, transparent 6%, #000 30%, #000 72%, transparent 97%); pointer-events:none; z-index:0; will-change:transform;"></div>
+  <div data-paint="0.55" data-breathe="" style="position:fixed; top:120%; left:12%; width:64vw; height:60vh; background-image:url('images/paint-wash.png'); background-size:cover; background-position:42% 48%; background-size:200% 250%; rotate:-6deg; opacity:calc(var(--mm-paint, .5) * 1.6); mix-blend-mode:multiply; -webkit-mask-image:linear-gradient(92deg, transparent 5%, #000 28%, #000 74%, transparent 98%); mask-image:linear-gradient(92deg, transparent 5%, #000 28%, #000 74%, transparent 98%); pointer-events:none; z-index:0; will-change:transform;"></div>
+  <div style="position:fixed; inset:0; background:linear-gradient(180deg, rgba(247,243,236,.42) 0%, rgba(247,243,236,.7) 26%, rgba(247,243,236,.88) 60%, rgba(247,243,236,.93) 100%); pointer-events:none; z-index:0;"></div>
 
-<header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="index.html">Magzhan<span>.</span>Mukanova</a>
-    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <ul class="nav-links">
-      <li><a href="index.html" aria-current="page">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="reel.html">Reels</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="cv.html">CV</a></li>
-    </ul>
+  <div data-paint="0.05" aria-hidden="true" style="position:fixed; left:-16px; bottom:-10px; width:auto; height:min(300px,34vh); pointer-events:none; z-index:0;">
+    <img src="images/chamomile.png" alt="" data-drift="" style="height:100%; width:auto; display:block; opacity:.9; mix-blend-mode:multiply;">
   </div>
-</header>
+
+  <div style="position:relative; z-index:1;">
+
+    <header style="position:sticky; top:0; z-index:40; background:rgba(247,243,236,.78); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-bottom:1px solid rgba(38,35,31,.09);">
+      <div style="max-width:1180px; margin:0 auto; padding:0 40px; height:84px; display:flex; align-items:center; justify-content:space-between; gap:32px; flex-wrap:wrap;">
+        <a href="index.html" style="font-family:'Cormorant Garamond',Georgia,serif; font-size:22px; letter-spacing:.06em; color:#26231F; border:0; display:flex; align-items:baseline; gap:2px;">Magzhan<span style="color:var(--mm-accent,#9A7B4F);">.</span>Mukanova</a>
+        <nav style="display:flex; align-items:center; gap:38px; flex-wrap:wrap;">
+          <a aria-current="page" href="index.html" data-nav="home" style="font-size:11.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--mm-accent); border:0; padding:6px 0; border-bottom:1px solid var(--mm-accent);">Home</a>
+          <a href="publications.html" data-nav="publications" style="font-size:11.5px; letter-spacing:.2em; text-transform:uppercase; color:#453F37; border:0; padding:6px 0; border-bottom:1px solid transparent;">Publications</a>
+          <a href="projects.html" data-nav="projects" style="font-size:11.5px; letter-spacing:.2em; text-transform:uppercase; color:#453F37; border:0; padding:6px 0; border-bottom:1px solid transparent;">Current Projects</a>
+          <a href="portfolio.html" data-nav="reels" style="font-size:11.5px; letter-spacing:.2em; text-transform:uppercase; color:#453F37; border:0; padding:6px 0; border-bottom:1px solid transparent;">Portfolio</a>
+          <a href="about.html" data-nav="cv" style="font-size:11.5px; letter-spacing:.2em; text-transform:uppercase; color:#453F37; border:0; padding:6px 0; border-bottom:1px solid transparent;">About</a>
+        </nav>
+      </div>
+    </header>
 
 <main>
+      <section style="padding: 72px 0 56px; position: relative">
+        <div style="max-width: 1180px; margin: 0 auto; padding: 0 40px; display: grid; grid-template-columns: repeat(auto-fit,minmax(320px,1fr)); gap: 52px; align-items: center; position: relative">
+          <div style="position: relative">
+            <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:var(--mm-accent,#9A7B4F); margin-bottom:20px; line-height:1.8;">Ph.D. candidate · School of Applied and Creative Computing<br>Purdue University</div>
+            <div style="position:relative; display:inline-block; max-width:100%;">
+              
+              
+              <h1 style="font-family: 'Cormorant Garamond',Georgia,serif; font-weight: 400; font-size: 55px; line-height: 1.03; letter-spacing: -0.015em; margin: 0 0 22px; color: #221F1B">Magzhan Mukanova</h1>
+            </div>
+            <div aria-hidden="true" data-brush="" style="width:min(330px,62%); height:22px; margin:0 0 20px; background-image:url('images/brush-stroke.png'); background-size:100% 100%; background-repeat:no-repeat; opacity:.85; mix-blend-mode:multiply;"></div>
+            <div style="display:flex; align-items:center; gap:16px; margin-bottom:26px;">
+              <span style="font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: rgb(69, 63, 55);">RESEARCHER · 3D ANIMATOR · CREATOR</span>
+            </div>
+            <p style="font-family:'Cormorant Garamond',Georgia,serif; font-size:23px; line-height:1.6; color:#2E2A24; max-width:24em; margin:0 0 30px; text-wrap:pretty;">I research embodied virtual agents and behavioral animation to convey personality, emotion, and social presence through movement and performance.</p>
+            <div style="display:flex; flex-wrap:wrap; gap:34px; align-items:center;">
+              
+              
+            </div>
+          <img src="images/chamomile-heads.png" alt="" aria-hidden="true" data-sway="right" style="position: absolute; top: 57px; width: 112px; height: auto; opacity: .9; mix-blend-mode: multiply; pointer-events: none; left: 412px"></div>
+          <div style="justify-self:center; position:relative;">
+            <div style="position:absolute; inset:-34px -30px -26px -36px; background-image:url('images/paint-wash.png'); background-size:cover; background-position:20% 60%; opacity:.75; mix-blend-mode:multiply; -webkit-mask-image:radial-gradient(58% 58% at 50% 50%, #000 10%, transparent 80%); mask-image:radial-gradient(58% 58% at 50% 50%, #000 10%, transparent 80%);"></div>
+            <img src="images/portrait.jpg" alt="Portrait of Magzhan Mukanova" style="position:relative; width:min(340px,72vw); aspect-ratio:4/5; object-fit:cover; object-position:center 28%; display:block; border-radius:0; filter:saturate(.82) contrast(.98);">
+          </div>
+        <img src="images/chamomile-heads.png" alt="" aria-hidden="true" data-sway="left" style="position: absolute; left: -42px; top: 90px; width: 112px; height: auto; opacity: .9; mix-blend-mode: multiply; pointer-events: none"></div>
+      </section>
 
-  <!-- ============ HERO ============ -->
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <span class="kicker">Ph.D. Student · School of Applied and Creative Computing · Purdue University</span>
-        <h1>Hi, I'm Magzhan Mukanova</h1>
-        <p class="roles">Researcher · 3D Animator · Virtual Human Developer</p>
-        <p class="bio">
-          I research embodied virtual agents, behavioral animation, and human-computer
-          interaction — exploring how virtual humans communicate personality, emotion,
-          and social behavior through movement, appearance, and animated performance.
-        </p>
-        <div class="btn-row">
-          <a class="btn btn-primary" href="projects.html">View Projects</a>
-          <a class="btn btn-ghost" href="reel.html">Watch My Reels</a>
-          <a class="btn btn-ghost" href="files/CV.pdf">Download CV</a>
+      <section data-reveal="" style="padding:32px 0 56px;">
+        <div style="max-width:1180px; margin:0 auto; padding:0 40px;">
+          <div data-rule="" aria-hidden="true" style="height:1px; background:rgba(38,35,31,.28); margin-bottom:22px;"></div>
+          <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:32px; flex-wrap:wrap; margin-bottom:36px;">
+            <div>
+              <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:var(--mm-accent,#9A7B4F); margin-bottom:14px;">Selected Work</div>
+              <h2 style="font-family:'Cormorant Garamond',Georgia,serif; font-weight:400; font-size:clamp(2rem,3.4vw,2.9rem); line-height:1.15; margin:0; color:#221F1B;">Featured Projects</h2>
+            </div>
+            <a href="projects.html" style="font-size:11.5px; letter-spacing:.2em; text-transform:uppercase; color:#453F37; border-bottom:1px solid rgba(38,35,31,.2); padding-bottom:7px;">All Projects &nbsp;→</a>
+          </div>
+
+          <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:40px 40px;">
+            <article style="display:flex; flex-direction:column; gap:20px;">
+              <div style="position:relative; overflow:hidden; background:rgba(255,255,255,.35);"><div aria-hidden="true" style="position:absolute; inset:-8%; background-image:url('images/paint-wash.png'); background-size:cover; background-position:55% 40%; opacity:.5; mix-blend-mode:multiply; pointer-events:none; z-index:2; -webkit-mask-image:radial-gradient(70% 60% at 50% 50%, transparent 42%, #000 100%); mask-image:radial-gradient(70% 60% at 50% 50%, transparent 42%, #000 100%);"></div>
+                <img src="images/ACMSAP_2026.png" alt="Eight virtual agent variations with different body shapes and appearances" style="width:100%; aspect-ratio:4/3; object-fit:cover; display:block; filter:saturate(.8) contrast(.97);">
+              </div>
+              <div style="display:flex; align-items:baseline; gap:18px; border-top:1px solid rgba(38,35,31,.14); padding-top:18px;">
+                <span style="font-size:11px; letter-spacing:.18em; color:var(--mm-accent,#9A7B4F);">01</span>
+                <h3 style="font-family:'Cormorant Garamond',Georgia,serif; font-weight:500; font-size:26px; line-height:1.2; margin:0; color:#221F1B;">Familiarity in Virtual Agents</h3>
+              </div>
+              <p style="font-size:16px; font-weight:400; line-height:1.75; color:#39342D; margin:0; text-wrap:pretty;">Investigating how familiarity in a virtual agent's appearance, voice, and motion shapes how people perceive the agent.</p>
+              <span style="font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:#6C655A;">ACM SAP 2026 · Perception study</span>
+            </article>
+
+            <article style="display:flex; flex-direction:column; gap:20px;">
+              <div style="position:relative; overflow:hidden; background:rgba(255,255,255,.35);"><div aria-hidden="true" style="position:absolute; inset:-8%; background-image:url('images/paint-wash.png'); background-size:cover; background-position:55% 40%; opacity:.5; mix-blend-mode:multiply; pointer-events:none; z-index:2; -webkit-mask-image:radial-gradient(70% 60% at 50% 50%, transparent 42%, #000 100%); mask-image:radial-gradient(70% 60% at 50% 50%, transparent 42%, #000 100%);"></div>
+                <img src="images/Gemep.png" alt="Animated pedagogical agent performing affective gestures" style="width:100%; aspect-ratio:4/3; object-fit:cover; display:block; filter:saturate(.8) contrast(.97);">
+              </div>
+              <div style="display:flex; align-items:baseline; gap:18px; border-top:1px solid rgba(38,35,31,.14); padding-top:18px;">
+                <span style="font-size:11px; letter-spacing:.18em; color:var(--mm-accent,#9A7B4F);">02</span>
+                <h3 style="font-family:'Cormorant Garamond',Georgia,serif; font-weight:500; font-size:26px; line-height:1.2; margin:0; color:#221F1B;">Personality &amp; Gesture Research</h3>
+              </div>
+              <p style="font-size:16px; font-weight:400; line-height:1.75; color:#39342D; margin:0; text-wrap:pretty;">Exploring how affective gestures and behavioral motion influence emotional perception in animated pedagogical agents, using gestures from the GEMEP dataset.</p>
+              <span style="font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:#6C655A;">Perception study · Character animation</span>
+            </article>
+
+            <article style="display:flex; flex-direction:column; gap:20px;">
+              <div style="position:relative; overflow:hidden; background:rgba(255,255,255,.35);"><div aria-hidden="true" style="position:absolute; inset:-8%; background-image:url('images/paint-wash.png'); background-size:cover; background-position:55% 40%; opacity:.5; mix-blend-mode:multiply; pointer-events:none; z-index:2; -webkit-mask-image:radial-gradient(70% 60% at 50% 50%, transparent 42%, #000 100%); mask-image:radial-gradient(70% 60% at 50% 50%, transparent 42%, #000 100%);"></div>
+                <img src="images/VoicePitch.png" alt="Virtual characters with different body types" style="width:100%; aspect-ratio:4/3; object-fit:cover; display:block; filter:saturate(.8) contrast(.97);">
+              </div>
+              <div style="display:flex; align-items:baseline; gap:18px; border-top:1px solid rgba(38,35,31,.14); padding-top:18px;">
+                <span style="font-size:11px; letter-spacing:.18em; color:var(--mm-accent,#9A7B4F);">03</span>
+                <h3 style="font-family:'Cormorant Garamond',Georgia,serif; font-weight:500; font-size:26px; line-height:1.2; margin:0; color:#221F1B;">Virtual Character Believability</h3>
+              </div>
+              <p style="font-size:16px; font-weight:400; line-height:1.75; color:#39342D; margin:0; text-wrap:pretty;">Studying how body shape, voice, and behavioral appearance affect perceived believability and audio-visual correspondence in virtual humans.</p>
+              <span style="font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:#6C655A;">ACM SAP 2023 · Empirical study</span>
+            </article>
+
+            <article style="display:flex; flex-direction:column; gap:20px;">
+              <div style="position:relative; overflow:hidden; background:rgba(255,255,255,.35);"><div aria-hidden="true" style="position:absolute; inset:-8%; background-image:url('images/paint-wash.png'); background-size:cover; background-position:55% 40%; opacity:.5; mix-blend-mode:multiply; pointer-events:none; z-index:2; -webkit-mask-image:radial-gradient(70% 60% at 50% 50%, transparent 42%, #000 100%); mask-image:radial-gradient(70% 60% at 50% 50%, transparent 42%, #000 100%);"></div>
+                <img src="images/Race.png" alt="Animated pedagogical agents of varying race, ethnicity and gender" style="width:100%; aspect-ratio:4/3; object-fit:cover; display:block; filter:saturate(.8) contrast(.97);">
+              </div>
+              <div style="display:flex; align-items:baseline; gap:18px; border-top:1px solid rgba(38,35,31,.14); padding-top:18px;">
+                <span style="font-size:11px; letter-spacing:.18em; color:var(--mm-accent,#9A7B4F);">04</span>
+                <h3 style="font-family:'Cormorant Garamond',Georgia,serif; font-weight:500; font-size:26px; line-height:1.2; margin:0; color:#221F1B;">Identity in Pedagogical Agents</h3>
+              </div>
+              <p style="font-size:16px; font-weight:400; line-height:1.75; color:#39342D; margin:0; text-wrap:pretty;">Examining how learners recognize and relate to the race/ethnicity and gender of animated pedagogical agents in educational settings.</p>
+              <span style="font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:#6C655A;">Journal of Educational Computing Research, 2024</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section data-reveal="" style="padding:32px 0 72px;">
+        <div style="max-width:1180px; margin:0 auto; padding:0 40px;">
+          <div style="position:relative; overflow:hidden; padding:48px 48px; background:rgba(255,255,255,.42); border-top:1px solid rgba(38,35,31,.16); border-bottom:1px solid rgba(38,35,31,.16); display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:36px;">
+            <div style="position:absolute; inset:0; background-image:url('images/paint-wash.png'); background-size:cover; background-position:40% 70%; opacity:.4; mix-blend-mode:multiply; pointer-events:none;"></div>
+            <div style="position:relative; max-width:34em;">
+              <h2 style="font-family:'Cormorant Garamond',Georgia,serif; font-weight:400; font-size:clamp(2rem,3.4vw,2.7rem); line-height:1.15; margin:0 0 14px; color:#221F1B;">Let's connect</h2>
+              <p style="font-size:16px; font-weight:400; line-height:1.8; color:#39342D; margin:0;">I'm always happy to talk about virtual humans, animation research, or potential collaborations.</p>
+            </div>
+            <a href="mailto:mmukanov@purdue.edu" style="position:relative; font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:var(--mm-accent,#9A7B4F); border-bottom:1px solid var(--mm-accent,#9A7B4F); padding-bottom:8px;">mmukanov@purdue.edu</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer style="border-top:1px solid rgba(38,35,31,.14); padding:32px 0 44px; margin-top:20px;">
+      <div style="max-width:1180px; margin:0 auto; padding:0 40px; display:flex; flex-wrap:wrap; justify-content:space-between; gap:24px; align-items:center;">
+        <div style="font-size:12px; letter-spacing:.1em; color:#6C655A;">© 2026 Magzhan Mukanova · West Lafayette, IN</div>
+        <div style="display:flex; flex-wrap:wrap; gap:32px;">
+          <a href="https://scholar.google.com/citations?user=7hkrEg0AAAAJ&amp;hl=en" style="font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:#453F37; border-bottom-color:rgba(38,35,31,.2);">Google Scholar</a>
+          <a href="https://orcid.org/0009-0009-5223-1664" style="font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:#453F37; border-bottom-color:rgba(38,35,31,.2);">ORCID</a>
+          <a href="https://github.com/magimn00" style="font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:#453F37; border-bottom-color:rgba(38,35,31,.2);">GitHub</a>
+          <a href="https://www.linkedin.com/in/magzhan-mukanova-28283a11b" style="font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:#453F37; border-bottom-color:rgba(38,35,31,.2);">LinkedIn</a>
         </div>
       </div>
-      <img class="hero-photo" src="images/Profileone_square.png" alt="Portrait of Magzhan Mukanova">
-    </div>
-  </section>
+    </footer>
 
-  <!-- ============ RESEARCH FOCUS ============ -->
-  <section class="section alt">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="kicker">Research</span>
-        <h2>What I Work On</h2>
-        <p class="lede">
-          I am particularly interested in how subtle motion cues — gesture size, timing,
-          posture, and facial behavior — influence human perception of virtual characters.
-          My projects bridge animation practice with scientific evaluation.
-        </p>
-      </div>
-      <ul class="chips reveal">
-        <li>Personality expression in virtual humans</li>
-        <li>Familiarity &amp; trust in embodied agents</li>
-        <li>Behavioral animation systems</li>
-        <li>Motion perception &amp; social cues</li>
-        <li>Conversational MetaHuman agents</li>
-        <li>Gesture generation &amp; procedural animation</li>
-        <li>Motion capture workflows</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- ============ FEATURED PROJECTS ============ -->
-  <section class="section">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="kicker">Selected Work</span>
-        <h2>Featured Projects</h2>
-        <p class="lede">A few highlights — see the <a href="projects.html">projects page</a> for videos and full descriptions.</p>
-      </div>
-
-      <div class="card-grid">
-        <article class="card reveal">
-          <img class="thumb" src="images/ACMSAP_2026.png" alt="Eight virtual agent variations of the same character with different body shapes and appearances">
-          <div class="card-body">
-            <h3>Familiarity in Virtual Agents</h3>
-            <p>Investigating how familiarity in a virtual agent's appearance, voice, and
-               motion shapes how people perceive the agent.</p>
-            <span class="card-meta">ACM SAP 2026 · Perception study</span>
-          </div>
-        </article>
-
-        <article class="card reveal">
-          <img class="thumb" src="images/Gemep.png" alt="Animated pedagogical agent performing affective gestures">
-          <div class="card-body">
-            <h3>Personality &amp; Gesture Research</h3>
-            <p>Exploring how affective gestures and behavioral motion influence emotional
-               perception in animated pedagogical agents, using gestures from the GEMEP dataset.</p>
-            <span class="card-meta">Perception study · Character animation</span>
-          </div>
-        </article>
-
-        <article class="card reveal">
-          <img class="thumb" src="images/VoicePitch.png" alt="Virtual characters with different body types">
-          <div class="card-body">
-            <h3>Virtual Character Believability</h3>
-            <p>Studying how body shape, voice, and behavioral appearance affect perceived
-               believability and audio-visual correspondence in virtual humans.</p>
-            <span class="card-meta">ACM SAP 2023 · Empirical study</span>
-          </div>
-        </article>
-
-        <article class="card reveal">
-          <img class="thumb" src="images/Race.png" alt="Animated pedagogical agents of varying race, ethnicity and gender">
-          <div class="card-body">
-            <h3>Identity in Pedagogical Agents</h3>
-            <p>Examining how learners recognize and relate to the race/ethnicity and gender
-               of animated pedagogical agents in educational settings.</p>
-            <span class="card-meta">Journal of Educational Computing Research, 2024</span>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ TOOLS ============ -->
-  <section class="section alt">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="kicker">Toolbox</span>
-        <h2>Tools &amp; Technologies</h2>
-      </div>
-      <ul class="chips reveal">
-        <li>Unreal Engine 5</li>
-        <li>MetaHumans</li>
-        <li>Autodesk Maya</li>
-        <li>Blender</li>
-        <li>iClone / Character Creator</li>
-        <li>Motion capture pipelines</li>
-        <li>AI mocap tools</li>
-        <li>Python</li>
-        <li>OpenGL</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- ============ CONTACT ============ -->
-  <section class="section">
-    <div class="container">
-      <div class="contact-strip reveal">
-        <div>
-          <h2>Let's connect</h2>
-          <p>I'm always happy to talk about virtual humans, animation research,
-             or potential collaborations.</p>
-        </div>
-        <a class="btn" href="mailto:mmukanov@purdue.edu">mmukanov@purdue.edu</a>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <div>© 2026 Magzhan Mukanova · West Lafayette, IN</div>
-    <ul class="footer-links">
-      <li><a href="https://scholar.google.com/citations?user=7hkrEg0AAAAJ&amp;hl=en">Google Scholar</a></li>
-      <li><a href="https://orcid.org/0009-0009-5223-1664">ORCID</a></li>
-      <li><a href="https://github.com/magimn00">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/magzhan-mukanova-28283a11b">LinkedIn</a></li>
-    </ul>
   </div>
-</footer>
-
-<script src="js/main.js"></script>
+</div>
+<script src="js/site.js"></script>
 </body>
 </html>
